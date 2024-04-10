@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("UsdaZanerApp.Server")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8b99fae409280ede6ba4ecf02c332e9048ba57bb")]
 [assembly: System.Reflection.AssemblyProductAttribute("UsdaZanerApp.Server")]
 [assembly: System.Reflection.AssemblyTitleAttribute("UsdaZanerApp.Server")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

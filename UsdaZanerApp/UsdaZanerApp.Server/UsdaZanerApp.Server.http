@@ -1,0 +1,6 @@
+@UsdaZanerApp.Server_HostAddress = http://localhost:5037
+
+GET {{UsdaZanerApp.Server_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

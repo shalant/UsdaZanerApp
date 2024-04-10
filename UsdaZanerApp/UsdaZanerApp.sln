@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34714.143
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UsdaZanerApp.Server", "UsdaZanerApp.Server\UsdaZanerApp.Server.csproj", "{67ABAABA-3C66-4845-AD30-F2B1059446B2}"
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "usdazanerapp.client", "usdazanerapp.client\usdazanerapp.client.esproj", "{90633768-E4ED-4940-9431-4B58B6079053}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{67ABAABA-3C66-4845-AD30-F2B1059446B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67ABAABA-3C66-4845-AD30-F2B1059446B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67ABAABA-3C66-4845-AD30-F2B1059446B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67ABAABA-3C66-4845-AD30-F2B1059446B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90633768-E4ED-4940-9431-4B58B6079053}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90633768-E4ED-4940-9431-4B58B6079053}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90633768-E4ED-4940-9431-4B58B6079053}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{90633768-E4ED-4940-9431-4B58B6079053}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90633768-E4ED-4940-9431-4B58B6079053}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90633768-E4ED-4940-9431-4B58B6079053}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2E305446-F7D4-421D-A5AC-61A558020B06}
+	EndGlobalSection
+EndGlobal

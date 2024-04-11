@@ -8,6 +8,7 @@ import { NavbarComponent } from './core/components/navbar/navbar.component';
 import { MydataListComponent } from './features/mydata/mydata-list/mydata-list.component';
 import { AddMydataComponent } from './features/mydata/add-mydata/add-mydata.component';
 import { UsdaDataListComponent } from './features/usda-data/usda-data-list/usda-data-list.component';
+import { MychartComponent } from './features/mychart/mychart.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { UsdaDataListComponent } from './features/usda-data/usda-data-list/usda-
     NavbarComponent,
     MydataListComponent,
     AddMydataComponent,
-    UsdaDataListComponent
+    UsdaDataListComponent,
+    MychartComponent
   ],
   imports: [
     BrowserModule, 

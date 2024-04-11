@@ -16,7 +16,7 @@ export class UsdaDataListComponent implements OnInit {
   constructor(private usdaDataService: UsdaDataService) {}
 
   ngOnInit(): void {
-      // this.usdaInfos$ = this.usdaDataService.getUsdaData();
+      this.usdaInfos$ = this.usdaDataService.getUsdaData();
   }
   
 }

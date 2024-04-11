@@ -8,7 +8,7 @@ public class UsdaDBObject
     public DateTime? CreatedDate { get; set; }
     public DateTime? LastModifiedDate { get; set; }
 
-    public ICollection<Us>
+    public ICollection<UsdaInfo> usdaInfos {get;set;}
 
     public string? prodn_practice_desc { get; set; }
     public string? domain_desc { get; set; }

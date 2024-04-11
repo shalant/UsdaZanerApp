@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "C:\\Users\\digdr\\Documents\\coding\\UsdaZanerApp\\UsdaZanerApp\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{67ABAABA-3C66-4845-AD30-F2B1059446B2}|UsdaZanerApp.Server\\UsdaZanerApp.Server.csproj|c:\\users\\digdr\\documents\\coding\\usdazanerapp\\usdazanerapp\\usdazanerapp.server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{67ABAABA-3C66-4845-AD30-F2B1059446B2}|UsdaZanerApp.Server\\UsdaZanerApp.Server.csproj|solutionrelative:usdazanerapp.server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67ABAABA-3C66-4845-AD30-F2B1059446B2}|UsdaZanerApp.Server\\UsdaZanerApp.Server.csproj|c:\\users\\digdr\\documents\\coding\\usdazanerapp\\usdazanerapp\\usdazanerapp.server\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{67ABAABA-3C66-4845-AD30-F2B1059446B2}|UsdaZanerApp.Server\\UsdaZanerApp.Server.csproj|solutionrelative:usdazanerapp.server\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67ABAABA-3C66-4845-AD30-F2B1059446B2}|UsdaZanerApp.Server\\UsdaZanerApp.Server.csproj|c:\\users\\digdr\\documents\\coding\\usdazanerapp\\usdazanerapp\\usdazanerapp.server\\models\\domain\\usdadbobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67ABAABA-3C66-4845-AD30-F2B1059446B2}|UsdaZanerApp.Server\\UsdaZanerApp.Server.csproj|solutionrelative:usdazanerapp.server\\models\\domain\\usdadbobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{67ABAABA-3C66-4845-AD30-F2B1059446B2}|UsdaZanerApp.Server\\UsdaZanerApp.Server.csproj|c:\\users\\digdr\\documents\\coding\\usdazanerapp\\usdazanerapp\\usdazanerapp.server\\controllers\\usdainfocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{67ABAABA-3C66-4845-AD30-F2B1059446B2}|UsdaZanerApp.Server\\UsdaZanerApp.Server.csproj|solutionrelative:usdazanerapp.server\\controllers\\usdainfocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -13,10 +25,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{67ABAABA-3C66-4845-AD30-F2B1059446B2}|UsdaZanerApp.Server\\UsdaZanerApp.Server.csproj|c:\\users\\digdr\\documents\\coding\\usdazanerapp\\usdazanerapp\\usdazanerapp.server\\models\\domain\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{67ABAABA-3C66-4845-AD30-F2B1059446B2}|UsdaZanerApp.Server\\UsdaZanerApp.Server.csproj|solutionrelative:usdazanerapp.server\\models\\domain\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{67ABAABA-3C66-4845-AD30-F2B1059446B2}|UsdaZanerApp.Server\\UsdaZanerApp.Server.csproj|c:\\users\\digdr\\documents\\coding\\usdazanerapp\\usdazanerapp\\usdazanerapp.server\\models\\domain\\usdadbobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{67ABAABA-3C66-4845-AD30-F2B1059446B2}|UsdaZanerApp.Server\\UsdaZanerApp.Server.csproj|solutionrelative:usdazanerapp.server\\models\\domain\\usdadbobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{67ABAABA-3C66-4845-AD30-F2B1059446B2}|UsdaZanerApp.Server\\UsdaZanerApp.Server.csproj|c:\\users\\digdr\\documents\\coding\\usdazanerapp\\usdazanerapp\\usdazanerapp.server\\models\\domain\\usdainfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -42,7 +50,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 304,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,7 +58,33 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\digdr\\Documents\\coding\\UsdaZanerApp\\UsdaZanerApp\\UsdaZanerApp.Server\\appsettings.json",
+              "RelativeDocumentMoniker": "UsdaZanerApp.Server\\appsettings.json",
+              "ToolTip": "C:\\Users\\digdr\\Documents\\coding\\UsdaZanerApp\\UsdaZanerApp\\UsdaZanerApp.Server\\appsettings.json",
+              "RelativeToolTip": "UsdaZanerApp.Server\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-11T16:29:52.132Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\digdr\\Documents\\coding\\UsdaZanerApp\\UsdaZanerApp\\UsdaZanerApp.Server\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "UsdaZanerApp.Server\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\digdr\\Documents\\coding\\UsdaZanerApp\\UsdaZanerApp\\UsdaZanerApp.Server\\appsettings.Development.json",
+              "RelativeToolTip": "UsdaZanerApp.Server\\appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-11T16:29:49.688Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "UserDataSet.cs",
               "DocumentMoniker": "C:\\Users\\digdr\\Documents\\coding\\UsdaZanerApp\\UsdaZanerApp\\UsdaZanerApp.Server\\Models\\Domain\\UserDataSet.cs",
               "RelativeDocumentMoniker": "UsdaZanerApp.Server\\Models\\Domain\\UserDataSet.cs",
@@ -58,12 +92,11 @@
               "RelativeToolTip": "UsdaZanerApp.Server\\Models\\Domain\\UserDataSet.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-10T14:50:26.369Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-10T14:50:26.369Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\digdr\\Documents\\coding\\UsdaZanerApp\\UsdaZanerApp\\UsdaZanerApp.Server\\Models\\Domain\\User.cs",
               "RelativeDocumentMoniker": "UsdaZanerApp.Server\\Models\\Domain\\User.cs",
@@ -71,12 +104,11 @@
               "RelativeToolTip": "UsdaZanerApp.Server\\Models\\Domain\\User.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAA+AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-10T14:28:36.397Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-10T14:28:36.397Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "UsdaInfoController.cs",
               "DocumentMoniker": "C:\\Users\\digdr\\Documents\\coding\\UsdaZanerApp\\UsdaZanerApp\\UsdaZanerApp.Server\\Controllers\\UsdaInfoController.cs",
               "RelativeDocumentMoniker": "UsdaZanerApp.Server\\Controllers\\UsdaInfoController.cs",
@@ -89,20 +121,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "UsdaDbObject.cs",
               "DocumentMoniker": "C:\\Users\\digdr\\Documents\\coding\\UsdaZanerApp\\UsdaZanerApp\\UsdaZanerApp.Server\\Models\\Domain\\UsdaDbObject.cs",
               "RelativeDocumentMoniker": "UsdaZanerApp.Server\\Models\\Domain\\UsdaDbObject.cs",
               "ToolTip": "C:\\Users\\digdr\\Documents\\coding\\UsdaZanerApp\\UsdaZanerApp\\UsdaZanerApp.Server\\Models\\Domain\\UsdaDbObject.cs",
               "RelativeToolTip": "UsdaZanerApp.Server\\Models\\Domain\\UsdaDbObject.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAZAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-10T13:59:24.117Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "UsdaInfo.cs",
               "DocumentMoniker": "C:\\Users\\digdr\\Documents\\coding\\UsdaZanerApp\\UsdaZanerApp\\UsdaZanerApp.Server\\Models\\Domain\\UsdaInfo.cs",
               "RelativeDocumentMoniker": "UsdaZanerApp.Server\\Models\\Domain\\UsdaInfo.cs",
@@ -110,12 +142,11 @@
               "RelativeToolTip": "UsdaZanerApp.Server\\Models\\Domain\\UsdaInfo.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-10T13:58:33.967Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-10T13:58:33.967Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\digdr\\Documents\\coding\\UsdaZanerApp\\UsdaZanerApp\\UsdaZanerApp.Server\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "UsdaZanerApp.Server\\Data\\AppDbContext.cs",
@@ -123,12 +154,11 @@
               "RelativeToolTip": "UsdaZanerApp.Server\\Data\\AppDbContext.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-10T13:49:57.635Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-10T13:49:57.635Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "Category.cs",
               "DocumentMoniker": "C:\\Users\\digdr\\Documents\\coding\\UsdaZanerApp\\UsdaZanerApp\\UsdaZanerApp.Server\\Models\\Domain\\Category.cs",
               "RelativeDocumentMoniker": "UsdaZanerApp.Server\\Models\\Domain\\Category.cs",
@@ -136,12 +166,11 @@
               "RelativeToolTip": "UsdaZanerApp.Server\\Models\\Domain\\Category.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-10T13:47:33.035Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-10T13:47:33.035Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "BlogPost.cs",
               "DocumentMoniker": "C:\\Users\\digdr\\Documents\\coding\\UsdaZanerApp\\UsdaZanerApp\\UsdaZanerApp.Server\\Models\\Domain\\BlogPost.cs",
               "RelativeDocumentMoniker": "UsdaZanerApp.Server\\Models\\Domain\\BlogPost.cs",
@@ -149,8 +178,7 @@
               "RelativeToolTip": "UsdaZanerApp.Server\\Models\\Domain\\BlogPost.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-10T13:46:54.669Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-10T13:46:54.669Z"
             }
           ]
         }

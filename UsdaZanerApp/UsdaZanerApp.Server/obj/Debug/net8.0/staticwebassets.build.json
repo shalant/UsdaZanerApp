@@ -1,15 +1,15 @@
 {
   "Version": 1,
-  "Hash": "HRx1UmErVdd828ScaSZa5RhnBT0pr/7qpYa5bU3XbDs=",
+  "Hash": "VNvBAJswr31wJKg1lk3OPl+I3RVwogNPm65u07tduU0=",
   "Source": "UsdaZanerApp.Server",
   "BasePath": "_content/UsdaZanerApp.Server",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [
     {
-      "Identity": "C:\\Users\\digdr\\Documents\\coding\\UsdaZanerApp\\UsdaZanerApp\\usdazanerapp.client\\usdazanerapp.client.esproj",
+      "Identity": "C:\\Users\\digdr\\Documents\\coding\\UsdaZanerApp\\UsdaZanerApp\\usdazanerapp.client\\UsdaZanerapp.client.esproj",
       "Version": 2,
-      "Source": "usdazanerapp.client",
+      "Source": "UsdaZanerapp.client",
       "GetPublishAssetsTargets": "GetCurrentProjectPublishStaticWebAssetItems",
       "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
       "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained",

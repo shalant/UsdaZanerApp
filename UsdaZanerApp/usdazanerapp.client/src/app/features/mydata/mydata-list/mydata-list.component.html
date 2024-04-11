@@ -1,1 +1,27 @@
 <p>mydata-list works!</p>
+
+
+<ng-container *ngIf="usdaDbObjects$ | async as usdaDbObjects">
+    <table class="table table-bordered mt-3">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Name</th>
+                <th>Url Handle</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let item of usdaDbObjects">
+                <td>{{item.UserFirstName}}</td>
+                <td>{{item.UserLastName}}</td>
+                <td>{{item.CreatedDate}}</td>
+                <td>
+                    <!-- <a [routerLink]="['/admin/categories', category.id]" class="btn btn-light">Edit</a> -->
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+
+</ng-container>

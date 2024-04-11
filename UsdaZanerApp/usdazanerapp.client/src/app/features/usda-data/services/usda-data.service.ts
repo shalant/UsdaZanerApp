@@ -1,7 +1,6 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
-
 import { UsdaInfo } from '../models/usdaInfoModel';
 import { environment } from 'src/environments/environment';
 
@@ -9,13 +8,11 @@ import { environment } from 'src/environments/environment';
   providedIn: 'root'
 })
 
-export class MydataServicesService {
+export class UsdaDataService {
 
-  constructor(private http: HttpClient) { }
+  constructor(private http: HttpClient) {}
 
-  
+  // getUsdaData(): Observable<UsdaInfo[]> {
+  //   return this.http.get<UsdaInfo[]>(`${environment.usdaQuickStatUrl}`);
+  // }
 }
-
-
-
-

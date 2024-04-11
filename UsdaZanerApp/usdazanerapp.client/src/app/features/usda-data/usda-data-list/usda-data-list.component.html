@@ -1,1 +1,25 @@
 <p>usda-data-list works!</p>
+<ng-container *ngIf="usdaInfos$ | async as categories">
+    <table class="table table-bordered mt-3">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Name</th>
+                <th>Url Handle</th>
+                <th></th>
+            </tr>
+        </thead>
+        <!-- <tbody>
+            <tr *ngFor="let item of usdaInfos$">
+                <td>{{item}}</td>
+                <td>{{category.name}}</td>
+                <td>{{category.urlHandle}}</td>
+                <td>
+                    <a [routerLink]="['/admin/categories', category.id]" class="btn btn-light">Edit</a>
+                </td>
+            </tr>
+        </tbody> -->
+    </table>
+
+
+</ng-container>

@@ -8,6 +8,6 @@ namespace UsdaZanerApp.Server.Data
         {
         }
 
-
+        public DbSet<UsdaDBObject> UsdaDBObjects { get; set;}
     }
 }

@@ -1,6 +1,6 @@
-﻿namespace UsdaZanerApp.Server.Data;
+﻿namespace UsdaZanerApp.Server.Models.DTO;
 
-public class UsdaDBObject
+public class MyDataDto
 {
     public int Id { get; set; }
     public string? UserFirstName { get; set; }
@@ -8,7 +8,7 @@ public class UsdaDBObject
     public DateTime? CreatedDate { get; set; }
     public DateTime? LastModifiedDate { get; set; }
 
-    //TODO: soft delete
+    //TODO soft delete
     //public ICollection<UsdaInfo> usdaInfos {get;set;}
 
     public string? prodn_practice_desc { get; set; }

@@ -1,4 +1,4 @@
-export interface usdaDbObject {
+export interface UsdaDbObject {
     Id: number;
     UserFirstName: string;
     UserLastName: string;

@@ -1,5 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using UsdaZanerApp.Server.Data;
+using UsdaZanerApp.Server.Repositories.Implementation;
+using UsdaZanerApp.Server.Repositories.Interface;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -15,6 +17,8 @@ builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
 });
 
+builder.Services.AddScoped<IMyDataRepository, MyDataRepository>();
+
 var app = builder.Build();
 
 app.UseDefaultFiles();
@@ -28,6 +32,13 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+
+app.UseCors(options =>
+{
+    options.AllowAnyHeader();
+    options.AllowAnyOrigin();
+    options.AllowAnyMethod();
+});
 
 app.UseAuthorization();
 

@@ -4,18 +4,20 @@ import { Observable } from 'rxjs';
 
 import { UsdaInfo } from '../models/usdaInfoModel';
 import { environment } from 'src/environments/environment';
-import { usdaDbObject } from '../models/usdaDbObject';
+import { UsdaDbObject } from '../models/usdaDbObject';
 
 @Injectable({
   providedIn: 'root'
 })
 
-export class MydataServicesService {
+export class MyDataService {
 
   constructor(private http: HttpClient) { }
 
-  getAllMyData(): Observable<usdaDbObject[]> {
-    return this.http.get<usdaDbObject[]>('{environment.oldAPI}');
+  getAllMyData(): Observable<UsdaDbObject[]> {
+    // return this.http.get<UsdaDbObject[]>(`${environment.apiBaseUrl}/api/UsdaInfo`);
+    return this.http.get<UsdaDbObject[]>('https://localhost:7105/api/UsdaInfo');
+
   }
 }
 

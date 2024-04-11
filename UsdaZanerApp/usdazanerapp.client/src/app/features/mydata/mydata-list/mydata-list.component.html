@@ -1,27 +1,28 @@
-<p>mydata-list works!</p>
+<div class="container">
+    <h1 class="mt-3">My Data</h1>
 
+    <ng-container *ngIf="usdaDbObjects$ | async as usdaDbObjects">
+        <table class="table table-bordered mt-3">
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Name</th>
+                    <th>Url Handle</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let item of usdaDbObjects">
+                    <td>{{item.UserFirstName}}</td>
+                    <td>{{item.UserLastName}}</td>
+                    <td>{{item.CreatedDate}}</td>
+                    <td>
+                        <i class="fa-solid fa-pen-to-square"></i>
+                        <!-- <a [routerLink]="['/admin/categories', category.id]" class="btn btn-light">Edit</a> -->
+                    </td>
+                </tr>
+            </tbody>
+        </table>
 
-<ng-container *ngIf="usdaDbObjects$ | async as usdaDbObjects">
-    <table class="table table-bordered mt-3">
-        <thead>
-            <tr>
-                <th>Id</th>
-                <th>Name</th>
-                <th>Url Handle</th>
-                <th></th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr *ngFor="let item of usdaDbObjects">
-                <td>{{item.UserFirstName}}</td>
-                <td>{{item.UserLastName}}</td>
-                <td>{{item.CreatedDate}}</td>
-                <td>
-                    <!-- <a [routerLink]="['/admin/categories', category.id]" class="btn btn-light">Edit</a> -->
-                </td>
-            </tr>
-        </tbody>
-    </table>
-
-
-</ng-container>
+    </ng-container>
+</div>

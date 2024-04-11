@@ -1,20 +1,22 @@
 import { Component, OnInit } from '@angular/core';
 import { Observable } from 'rxjs';
-import { usdaDbObject } from '../models/usdaDbObject';
-import { MydataServicesService } from '../services/mydata.service';
+import { UsdaDbObject } from '../models/usdaDbObject';
+import { MyDataService } from '../services/mydata.service';
 
 @Component({
   selector: 'app-mydata-list',
   templateUrl: './mydata-list.component.html',
   styleUrls: ['./mydata-list.component.css']
 })
+
 export class MydataListComponent implements OnInit {
 
-  usdaDbObjects$?: Observable<usdaDbObject[]>;
+  usdaDbObjects$?: Observable<UsdaDbObject[]>;
 
-  constructor(private myDataService: MydataServicesService) {}
+  constructor(private myDataService: MyDataService) {}
 
   ngOnInit(): void {
       this.usdaDbObjects$ = this.myDataService.getAllMyData();
+      console.log(this.usdaDbObjects$);
   }
 }

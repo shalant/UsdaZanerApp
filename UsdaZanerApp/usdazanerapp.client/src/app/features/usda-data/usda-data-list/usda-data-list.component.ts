@@ -17,6 +17,7 @@ export class UsdaDataListComponent implements OnInit {
 
   ngOnInit(): void {
       this.usdaInfos$ = this.usdaDataService.getUsdaData();
+      console.log(this.usdaInfos$);
   }
   
 }

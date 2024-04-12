@@ -5,9 +5,9 @@
         <table class="table table-bordered mt-3">
             <thead>
                 <tr>
-                    <th>Id</th>
-                    <th>Name</th>
-                    <th>Url Handle</th>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <!-- <th>Created Date</th> -->
                     <th>Actions</th>
                 </tr>
             </thead>
@@ -15,7 +15,7 @@
                 <tr *ngFor="let item of usdaDbObjects">
                     <td>{{item.UserFirstName}}</td>
                     <td>{{item.UserLastName}}</td>
-                    <td>{{item.CreatedDate}}</td>
+                    <!-- <td>{{item.CreatedDate}}</td> -->
                     <td>
                         <i class="fa-solid fa-pen-to-square"></i>
                         <!-- <a [routerLink]="['/admin/categories', category.id]" class="btn btn-light">Edit</a> -->

@@ -13,6 +13,6 @@ export class UsdaDataService {
   constructor(private http: HttpClient) {}
 
   getUsdaData(): Observable<UsdaInfo[]> {
-    return this.http.get<UsdaInfo[]>(`${environment.apiBaseUrl}/api/UsdaInfo`);
+    return this.http.get<UsdaInfo[]>('${environment.usdaQuickStatUrl}');
   }
 }

@@ -9,6 +9,7 @@ import { MydataListComponent } from './features/mydata/mydata-list/mydata-list.c
 import { AddMydataComponent } from './features/mydata/add-mydata/add-mydata.component';
 import { UsdaDataListComponent } from './features/usda-data/usda-data-list/usda-data-list.component';
 import { MychartComponent } from './features/mychart/mychart.component';
+import { AuthService } from './features/coin-api-chart/auth.service';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,7 @@ import { MychartComponent } from './features/mychart/mychart.component';
     HttpClientModule,
     AppRoutingModule
   ],
-  providers: [],
+  providers: [AuthService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

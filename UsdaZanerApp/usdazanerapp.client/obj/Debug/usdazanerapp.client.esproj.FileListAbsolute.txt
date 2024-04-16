@@ -1,1 +1,2 @@
 C:\Users\digdr\Documents\coding\UsdaZanerApp\UsdaZanerApp\usdazanerapp.client\obj\Debug\usdazanerapp.client.esproj.CoreCompileInputs.cache
+C:\Coding\UsdaZanerApp\UsdaZanerApp\usdazanerapp.client\obj\Debug\UsdaZanerapp.client.esproj.CoreCompileInputs.cache

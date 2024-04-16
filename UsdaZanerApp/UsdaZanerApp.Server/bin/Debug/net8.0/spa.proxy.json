@@ -3,7 +3,7 @@
 "ServerUrl": "https://localhost:4200",
 "RedirectUrl": "",
 "LaunchCommand": "npm start",
-"WorkingDirectory": "C:\\Users\\digdr\\Documents\\coding\\UsdaZanerApp\\UsdaZanerApp\\UsdaZanerApp.Server\\..\\usdazanerapp.client",
+"WorkingDirectory": "C:\\Coding\\UsdaZanerApp\\UsdaZanerApp\\UsdaZanerApp.Server\\..\\usdazanerapp.client",
 "MaxTimeoutInSeconds": "120",
 "KeepRunning": "false"
 }

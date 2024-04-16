@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "H2N10jy1+DGp5TNnvv1gOs4jqhkJzYGxrwhwzX8uPozn9AAt52b6D4sch/kVjjGZcn8Vl9RmY4s65WPZBmswpA==",
+  "dgSpecHash": "Lv0YE2VPb7OvvBKCvi2ZKuUztHImcXSoo3jbMq87rGeQM4VIIqMomDyib0EQEFI3sWgvNC+XIhVmE1kET8PA8g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\digdr\\Documents\\coding\\UsdaZanerApp\\UsdaZanerApp\\UsdaZanerApp.Server\\UsdaZanerApp.Server.csproj",
+  "projectFilePath": "C:\\Coding\\UsdaZanerApp\\UsdaZanerApp\\UsdaZanerApp.Server\\UsdaZanerApp.Server.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\digdr\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\digdr\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

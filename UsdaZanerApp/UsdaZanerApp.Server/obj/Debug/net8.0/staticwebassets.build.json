@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "Hash": "VNvBAJswr31wJKg1lk3OPl+I3RVwogNPm65u07tduU0=",
+  "Hash": "gGd8qVg4ksswdQXyC0ORzg5zFVp/zJC8VODVR/Vlw7g=",
   "Source": "UsdaZanerApp.Server",
   "BasePath": "_content/UsdaZanerApp.Server",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [
     {
-      "Identity": "C:\\Users\\digdr\\Documents\\coding\\UsdaZanerApp\\UsdaZanerApp\\usdazanerapp.client\\UsdaZanerapp.client.esproj",
+      "Identity": "C:\\Coding\\UsdaZanerApp\\UsdaZanerApp\\usdazanerapp.client\\UsdaZanerapp.client.esproj",
       "Version": 2,
       "Source": "UsdaZanerapp.client",
       "GetPublishAssetsTargets": "GetCurrentProjectPublishStaticWebAssetItems",
